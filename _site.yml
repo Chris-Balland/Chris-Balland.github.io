@@ -4,7 +4,9 @@ navbar:
   title: "Christian Balland"
   left:
     - text: "Deyme au fil des rues"
-      href: deyme.html
+      menu:
+        - text: "Les cathares, qu’es aco?…"
+          href: cathares.html
     - text: "Le parlé Deymois"
       href: deymois.html
     - text: "Poésies"
@@ -13,13 +15,11 @@ navbar:
       href: jardins.html
   right:
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: ballandchristian107@gmail.com
     - icon: fa-github fa-lg
-      href: http://github.com/zabore
+      href: http://github.com/chris-balland
     - icon: fa-twitter fa-lg
-      href: https://twitter.com/zabormetrics
-    - icon: fa-linkedin fa-lg
-      href: https://www.linkedin.com/in/emily-zabor-59b902b7/
+      href: https://twitter.com/paballand
 output:
   html_document:
     theme: paper

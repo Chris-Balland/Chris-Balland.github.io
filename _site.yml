@@ -1,26 +1,62 @@
-name: "Christian Balland"
+﻿name: "Christian Balland"
+
 output_dir: "."
+
 navbar:
+  
   title: "Christian Balland"
+  
   left:
+    
     - text: "Deyme au fil des rues"
+
       menu:
-        - text: "Les cathares, qu’es aco?…"
-          href: cathares.html
+
+        - text: "Accueil"
+
+          href: deyme-au-fil-des-rues-accueil.html
+        - text: "Les Deymois racontent la guerre et la terre"
+
+          menu:
+
+            - text: "Les Deymois racontent la guerre et la terre"
+
+              href: deyme-au-fil-des-rues-les-deymois-racontent-la-guerre-et-la-terre-accueil.html
+
+            - text: "Les cathares, qu’es aco?…"
+
+              href: deyme-au-fil-des-rues-les-deymois-racontent-la-guerre-et-la-terre-cathares.html
+
     - text: "Le parlé Deymois"
+
       href: deymois.html
+
     - text: "Poésies"
+
       href: poésies.html
+
     - text: "Jardins d'Alexandre"
+
       href: jardins.html
+
   right:
+
     - icon: fa-envelope fa-lg
+
       href: ballandchristian107@gmail.com
+
     - icon: fa-github fa-lg
+
       href: http://github.com/chris-balland
+
     - icon: fa-twitter fa-lg
+
       href: https://twitter.com/paballand
+
 output:
+
   html_document:
+
     theme: paper
+
     css: 'styles.css'

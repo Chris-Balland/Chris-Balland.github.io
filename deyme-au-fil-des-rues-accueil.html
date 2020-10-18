@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>deyme-au-fil-des-rues-accueil.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+      </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Christian Balland</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Deyme au fil des rues
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="deyme-au-fil-des-rues/accueil.html">Accueil</a>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Les Deymois racontent la guerre et la terre</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="deyme-au-fil-des-rues/accueil.html">Les Deymois racontent la guerre et la terre</a>
+        </li>
+        <li>
+          <a href="deyme-au-fil-des-rues/les-deymois-racontent-la-guerre-et-la-terre/cathares.html">Les cathares, qu’es aco?…</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="deymois.html">Le parlé Deymois</a>
+</li>
+<li>
+  <a href="poésies.html">Poésies</a>
+</li>
+<li>
+  <a href="jardins.html">Jardins d'Alexandre</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="ballandchristian107@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="http://github.com/chris-balland">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/paballand">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<div id="deyme-au-fil-des-rues" class="section level2">
+<h2>Deyme au fil des rues</h2>
+<div id="de-lhistoire-aux-histoires-dun-petit-village-du-lauragais" class="section level3">
+<h3>De l’Histoire aux histoires d’un petit village du Lauragais</h3>
+<div id="christian-balland" class="section level4">
+<h4>Christian Balland</h4>
+<p>En sortant de Toulouse par la route de Narbonne, quelques minutes suffisent pour atteindre Deyme, village posé sur un plateau entouré de vallons. À ses pieds, la plaine lauragaise déroule un Canal du Midi paisible et ombragé, le lit de l’Hers mort, tantôt paradis des pêcheurs, tantôt synonyme de calamiteuses inondations, la Route Nationale 113, qui s’est substituée au Chemin français, et, depuis peu, comme tracée à la règle par un écolier méthodique, l’Autoroute des deux mers.</p>
+<p>Aux archives municipales, les documents assoupis tracent d’un murmure nostalgique les limites du “consulat”: “Belberaud d’Aquilon, Donneville du levant, Montbrun du Midi, Pompertuzat du couchant”…</p>
+<p>Et toutes ces vieilles pages sentent bon les foins et le blé courbés par le Cers et l’Autan. Un auteur local notait en 1885 : “Les gens étrangers au pays se récrient souvent et avec juste raison de la violence du vent. Les tempéraments nerveux souffrent cruellement de migraines quand il souffle. Quand aux gens du pays, ils sont l’image de la santé, et quoique ne faisant point usages de mets très substantiels ils arrivent fréquemment à un âge avancé. Il y a un certain nombre de vieillards qui ont dépassé la quatre-vingtième année. Cela indique que l’air y est d’une salubrité remarquable.”</p>
+<p>En ce temps là, les occasions de se rassembler ne manquaient pas. Pour le travail d’abord. Il y avait les moissons, les vendanges, l’écrêtage du maïs, les foins à rentrer et bien d’autres tâches “bronzantes”. Les journaliers apportaient leur aide dans une ambiance conviviale et partageaint le repas des employeurs. Le traditionnel bouquet de moisson, énorme gerbe décorée de feuillage et de fleurs des champs ou tressé en forme de croix, confectionné par les ouvriers à la fin des battages, était offert au patron ou à son épouse. En retour ils recevaient un pichet de vin ou de café et se voyaient conviés à un plantureux repas. Il en était de même pour les vendanges qui n’auraient pas été complètes sans se “moustouser”.</p>
+<p>La “castagnado” bien “mouillée” de vin nouveau était un autre prétexte, ou la tuaille, où il ne faisait pas bon être cochon, et encore la fête du village et celles de fin d’année, où il ne faisait pas meilleur être un chapon ou une oie grasse! Combien chères aux paysans étaient les veillées hivernales. Bien couverts, les hommes, les femmes et les enfants affrontaient le froid et la neige pour se retrouver entre voisins, autant dire en famille, la grande famille des “travailleurs de terre”! Les coutumes et les traditions se perpétuaient dans une douce ambiance autour de crèpes ou de beignets devant les tisons pétillants. Un petit alcool était rarement refusé. Ne pas offenser le fabricant de cette “gnôle maison” revigorante était la clef des bonnes relations, surtout après une soupe au fromage ou encore après un bon cassoulet mitônné dans l’irremplaçable marmite en terre! Et chacun à sa manière racontait une histoire. Le cabaretier contait celles entendues dans son café où les clients, privés de labourage les jours de pluie, se réunissaient venus des fermes environnantes ou des communes voisines. Les amis de passage, friands de ces causeries célèbres à faire pâlir de jalousie madame Récamier, illustre inconnue comparée à notre conteur, ajoutaient aux galéjades qui n’étaient pas admises mais recommandées. Gervasy, entendez Gervais, le jardinier, livrait les secrets de l’école, de l’église ou des registres paroissiaux et citait avec une mémoire éblouissante dates, noms, lieux et événements qui avaient fait l’Histoire deymoise. Quel délice ! Un instituteur persistait à convertir les plus âgés au système métrique: « Finies les vieilles mesures… plus de boissel, de punière et d‘arpent. » Et pour faire oublier son intervention accueillie muettement, il tendait son verre en ajoutant: « Je vais vous le dire en patois, vous comprendrez mieux!…« La salle s’esclaffait. Quelques générations plus tard, rien n’avait changé. Le fils du forgeron parlait du labeur de son père et décrivait les outils de battage et leur fonctionnement, une parente du docteur le faisait revivre en quelques mots et le petit-fils du dernier meunier, maître-verrier de profession, décrivait le vitrail qui lui avait valu un grand prix et nous parlait de son grand-père. Parfois, dans cette société capable de rester attablée pendant des heures, il se trouvait autant de conteurs que de convives.</p>
+<p>Les plus petits s’endormaient sur les genoux des grands-mères, s’ensuivaient des récits plus colorés destinés aux frères et soeurs ainés. Et l’on écoutait, serrés les uns contre les autres, se demandant parfois si les fleuves imaginaires ne prenaient pas leur source dans le monde réel. Venaient enfin les épisodes macabres. À ce moment, après un dernier « canard, » les adultes, installés à califourchon sur une chaise et les bras croisés appuyés au dossier, faisaient enfin silence. Un « Attendez-nous!… », partait de la cuisine. C’était une des mères de corvée. Parce que les mères, après la journée de travail et s’être occupées de leur progéniture, débarrassaient la table et s’apprêtaient à « vaisseler »! Heureusement, la mamée classait l’affaire: – Laissatz dròllas, la faretz doman, avètz le temps… vènetz escotar!… Assises près de leur époux, elles appuyaient leur tête sur les rudes épaules et, comme leurs pitchous, s’apprêtaient à sursauter. Les adolescents réunis en essaim approchaient curieux aux premiers Brrr!… Bouh!… Moun diou!… Le ronron du papé navigant sur la vague de sa canne, pourtant fermement tenue à deux mains, interrompait l’intrigue. Réveillé par les rires, il entendait à peine l’assemblée compter: « Une, deux… » À trois, l’air heureux, il repartait en mer! Lorsque les paupières se faisaient lourdes, ajoutant le rêve aux récits plus enflammés que les bûches dans l’âtre, il était temps de rentrer… à regret; Mais pour ma part, je retrouvais dans le cercle familial le complément de ces rencontres enrichissantes.</p>
+<p>Un bel appartement, modèle de calme et de discrétion a succédé à la vivante forge. Dans le garage attenant, les socs de charrues et de brabants, les sacs de « coucarils » et les roues de charrettes en attente de « châtrage » ont fait place à l’indispensable voiture aux chevaux sans âme.</p>
+<p>Les jeunes auditeurs attentifs des soirées feutrées ont aujourd’hui l’âge des conteurs d’antan. Ils froncent les sourcils au démarrage puant des encombrants véhicules diésel garés en désordre, et, le temps d’un soupir, revivent les odeurs de corne brûléee venues du « travail » où s’agite un boeuf en cours de ferrage. À peine couverts par la frappe du « ferratier » sur la bigorne, jaillissent les éclats de voix rehaussés de jurons imagés du forgeron.</p>
+<p>En passant devant l’école, les cris des joueurs de balle au camp résonnent encore et, l’imagination aidant, des groupes semblent se former: les fin d’études dissertent près de la pompe, les cours moyens et préparatoires envahissent le potager, et, plus en couleurs et dentelles, un parterre féminin tient salon sous le marronnier planté pour l’inauguration. Derrière les murs sacrés, l’abbé célèbre une messe en latin et jette un oeil de reproche aux enfants de choeur distraits par des aboiements et de longs miaulements montés du jardin presbytéral…</p>
+<p>Alors, comme jadis, du feu de cheminée ranimé, s’enfuient éperdues des milliers d’escarbilles chargées d’histoires qui, au désespoir d’atteindre les étoiles, savourent dans l’air frais le bonheur d’un salut éphémère et retombent en souvenirs…</p>
+</div>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

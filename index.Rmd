@@ -5,4 +5,4 @@
 
 <img src="IMG_1835.PNG" style="width:25%; border:0px solid; margin-right: 20px" align="left">
 
-Bienvenue sur mon site d'auteur. 
+Bienvenue sur mon site d'auteur!

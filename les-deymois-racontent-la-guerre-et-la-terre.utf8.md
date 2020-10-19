@@ -1,0 +1,25 @@
+---
+---  
+
+<style>
+body {
+text-align: justify}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+### Les Deymois racontent la guerre et la terre  
+
+<br>
+
+#### Christian Balland
+
+<br>
+
+Les documents d’archives sont complémentaires de la mémoire de nos "anciens", côtoyés pour certains au quotidien depuis notre enfance, sans prendre conscience du trésor qu’ils pouvaient nous léguer, ce qu’ils tentaient parfois de faire sous forme d’anecdotes. Les regrets surviennent soudain au moment du départ de ces bibles ignorées : Pourquoi ne pas avoir demandé davantage ou tout simplement demandé, écouté, pour offrir des témoignages inédits, techniques, poétiques et parfois savoureux à notre histoire ??!!!…
+
+
+Mais il n’est jamais trop tard !…
+
+Et dans cette perspective, nombres ont répondu à l’appel de laisser un document à l’attention des générations à venir : les moissons, une vie d’agriculteur, que mangeait-on ?, que se passait-il en 1914, le billet du Maire dans l’Echo de Deyme, la réserve foncière, l’expérience du premier magistrat, autant de sujets et bien d’autres développés par des auteurs locaux soucieux et conscients de laisser des écrits dans l’espoir que les paroles ne se dissiperont pas au gré de notre Autan redouté et tant aimé.
+

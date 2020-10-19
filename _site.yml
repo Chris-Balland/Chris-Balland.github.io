@@ -13,30 +13,23 @@ navbar:
       menu:
 
         - text: "Accueil"
-
-          href: deyme-au-fil-des-rues-accueil.html
+          href: accueil.html
+          
         - text: "Les Deymois racontent la guerre et la terre"
-
           menu:
-
-            - text: "Les Deymois racontent la guerre et la terre"
-
-              href: deyme-au-fil-des-rues-les-deymois-racontent-la-guerre-et-la-terre-accueil.html
+            - text: "Accueil"
+              href: les-deymois-racontent-la-guerre-et-la-terre.html
 
             - text: "Les cathares, qu’es aco?…"
-
-              href: deyme-au-fil-des-rues-les-deymois-racontent-la-guerre-et-la-terre-cathares.html
+              href: les-cathares.html
 
     - text: "Le parlé Deymois"
-
       href: deymois.html
 
     - text: "Poésies"
-
       href: poésies.html
 
     - text: "Jardins d'Alexandre"
-
       href: jardins.html
 
   right:
@@ -58,5 +51,4 @@ output:
   html_document:
 
     theme: paper
-
     css: 'styles.css'

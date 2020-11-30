@@ -32,6 +32,9 @@ navbar:
     - text: "Jardins d'Alexandre"
       href: jardins.html
 
+    - text: "Flore poétique méridoniale"
+      href: flore.html
+
   right:
 
     - icon: fa-envelope fa-lg

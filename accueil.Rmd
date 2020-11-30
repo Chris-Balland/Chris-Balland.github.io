@@ -3,11 +3,16 @@
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+<style>
+body {
+text-align: justify; font-size:12pt}
+</style>
+
 ## Deyme au fil des rues
 ### De l'Histoire aux histoires d'un petit village du Lauragais
 #### Christian Balland
 
-En sortant de Toulouse par la route de Narbonne, quelques minutes suffisent pour atteindre Deyme, village posé sur un plateau entouré de vallons. À ses pieds, la plaine lauragaise déroule un Canal du Midi paisible et ombragé, le lit de l’Hers mort, tantôt paradis des pêcheurs, tantôt synonyme de calamiteuses inondations, la Route Nationale 113, qui s’est substituée au Chemin français, et, depuis peu, comme tracée à la règle par un écolier méthodique, l’Autoroute des deux mers.
+En sortant de Toulouse par la route de Narbonne, quelques minutes suffisent pour atteindre Deyme, village posé sur un plateau entouré de vallons. À ses pieds, la plaine lauragaise déroule un Canal du Midi paisible et ombragé, le lit de l’Hers mort, tantôt paradis des pêcheurs, tantôt synonyme de calamiteuses inondations, la Route Nationale 113, qui s’est substituée au Chemin français, et, depuis peu, comme tracée à la règle par un écolier méthodique, l’Autoroute des deux mers. 
 
 Aux archives municipales, les documents assoupis tracent d’un murmure nostalgique les limites du “consulat”: “Belberaud d’Aquilon, Donneville du levant, Montbrun du Midi, Pompertuzat du couchant”…
 

@@ -23,6 +23,19 @@ navbar:
             - text: "Les cathares, qu’es aco?…"
               href: les-cathares.html
 
+            - text: "Communiqués de guerre 1914-1918"
+              href: communiques-de-guerre-1914-1918.html
+
+            - text: "L’affaire des Monges"
+              href: laffaire-des-monges.html
+
+            - text: "Le Monument aux Morts"
+              href: le-monument-aux-morts.html
+
+            - text: "Mathilde, une amie belge réfugiée"
+              href: mathilde-une-amie-belge.html
+
+
     - text: "Le parlé Deymois"
       href: deymois.html
 

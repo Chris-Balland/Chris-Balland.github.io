@@ -1,0 +1,6 @@
+setwd("D:/Dropbox/2-private/Chris-Balland.github.io")
+library(rmarkdown)
+rmarkdown::render("accueil.Rmd")
+rmarkdown::render("accueil.Rmd", "html_document")
+rmarkdown::render("les-cathares.Rmd", "html_document")
+render("les-cathares.Rmd", html_document(toc = TRUE, toc_depth = 2))

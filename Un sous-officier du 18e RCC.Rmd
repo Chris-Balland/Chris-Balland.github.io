@@ -11,7 +11,7 @@ text-align: justify; font-size:12pt}
 ## Un sous-officier du 18e RCC        
 #### Christian Balland      
 
-  À Maurice BALLAND et à tous ses camarades du 18e RCC
+*À Maurice BALLAND et à tous ses camarades du 18e RCC*
 
  
 
@@ -21,7 +21,7 @@ La pétanque, il n’en manquait pas une sur le seul vrai terrain que connaissen
 
 Connu comme ancien fonctionnaire de police, habitant une modeste demeure place du Rodoul avec son épouse, après avoir habité sur la Place Alex OUILLAC, la maison toujours ouverte à qui voulait prendre place à sa table, jardinier pour la plaisir d’avoir « ses légumes » et « ses fruits », on n’en savait pas davantage de Maurice BALLAND.
 
-<div style= "float:left;position: relative; width:25%; top: 14px;margin-right: 20px">
+<div style= "float:left;position: relative; width:42%; top: 14px;margin-right: 20px">
 
 ![](11.11.1986-Remise de Medaille.jpg) 
 
@@ -43,10 +43,29 @@ Monsieur le Maire a donné lecture des citations du sous-officier blessé à Sar
 
 Le 16 septembre 1992, le drapeau tricolore sous lequel il a brillamment servi le recouvrait…
 
+<div style="text-align: right"> **Deyme 13 novembre 2018**</div>  
+<br /> 
+
+    
+    
+Faisant suite à l’article « Un sous-officier du 18e RCC », je réalise le voeu de mon père de voir publier les documents conservés précieusement par lui. Les officiers et camarades de son régiment, même les chevaux qu’il a tant aimés sont présents: Gamin, Gaspard et Girouette. Même « Totoche », le sanglier mascotte, avait bien voulu poser.
+
+Que ces hommes d’élite revivent, l’instant d’un regard et d’une pensée !… 
+
+```{r, echo = F, out.width="30%"}
+library(knitr)
+myimages<-list.files("C:/Chris-Balland.github.io/images", pattern = ".jpg", full.names = TRUE)
+include_graphics(myimages)
+```
+![](Gallery Maurice 1.jpg) 
+
+![](Gallery Maurice 2.jpg) 
+![](Gallery Maurice 3.jpg) 
+![](Gallery Maurice 4 _officiers-et-sous-officiers-1939.jpg) 
+![](Gallery Maurice 5-rcc-1939.jpg) 
+![](Gallery Maurice 6 girouette-forbach-19371.jpg) 
+![](Gallery Maurice 7 _20-02-1938.jpg) 
+![](Gallery Maurice 8 forbach-12-mars-1939-3.jpg) 
 
 
-<div style="text-align: right"> **Deyme 13 novembre 2018** </div>
 
-Faisant suite à l’article « Un sous-officier du 18e RCC », je réalise le voeu de mon père de voir publier les documents conservés précieusement par lui. Les officiers et camarades de son régiment, mais les chevaux qu’il a tant aimés sont présents: Gamin, Gaspard et Girouette. Même « Totoche », le sanglier mascotte, avait bien voulu poser.
-
-Que ces hommes d’élite revivent, l’instant d’un regard et d’une pensée !…

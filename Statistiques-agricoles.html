@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Statistiques-agricoles.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Christian Balland</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Deyme au fil des rues
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="accueil.html">Accueil</a>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Les Deymois racontent la guerre et la terre</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="les-deymois-racontent-la-guerre-et-la-terre.html">Accueil</a>
+        </li>
+        <li>
+          <a href="les-cathares.html">Les cathares, qu’es aco?…</a>
+        </li>
+        <li>
+          <a href="communiques-de-guerre-1914-1918.html">Communiqués de guerre 1914-1918</a>
+        </li>
+        <li>
+          <a href="laffaire-des-monges.html">L’affaire des Monges</a>
+        </li>
+        <li>
+          <a href="le-monument-aux-morts.html">Le Monument aux Morts</a>
+        </li>
+        <li>
+          <a href="mathilde-une-amie-belge.html">Mathilde, une amie belge réfugiée</a>
+        </li>
+        <li>
+          <a href="Un-sous-officier-du-18e-RCC.html">Un sous-officier du 18e RCC</a>
+        </li>
+        <li>
+          <a href="Denrées-et-substances-pendant-la-1ère-Guerre-Mondiale.html">Denrées et substances pendant la 1ère Guerre Mondiale</a>
+        </li>
+        <li>
+          <a href="Statistiques-agricoles.html">Statistiques agricoles</a>
+        </li>
+        <li>
+          <a href="Prix-des-produits-fermiers-1929-1970.html">Prix des produits fermiers 1929 à 1970</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="deymois.html">Le parlé Deymois</a>
+</li>
+<li>
+  <a href="poésies.html">Poésies</a>
+</li>
+<li>
+  <a href="jardins.html">Jardins d'Alexandre</a>
+</li>
+<li>
+  <a href="flore.html">Flore poétique méridoniale</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="ballandchristian107@gmail.com">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/paballand">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<style>
+body {
+text-align: justify; font-size:12pt}
+</style>
+<div id="statistiques-agricoles" class="section level2">
+<h2>Statistiques agricoles</h2>
+<div id="christian-balland" class="section level4">
+<h4>Christian Balland</h4>
+<hr />
+</div>
+<div id="production-céréalière-moyenne-fin-xviiie-siècle" class="section level4">
+<h4>Production céréalière moyenne fin XVIIIe siècle</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="left">Céréales</th>
+<th align="center">Avant 1782</th>
+<th align="center">1782</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="left">Blé / Froment</td>
+<td align="center">2000</td>
+<td align="center">2305</td>
+</tr>
+<tr class="even">
+<td align="left">Orge</td>
+<td align="center">100</td>
+<td align="center">50</td>
+</tr>
+<tr class="odd">
+<td align="left">Avoine</td>
+<td align="center">100</td>
+<td align="center">50</td>
+</tr>
+<tr class="even">
+<td align="left">Millet &amp; Légumes</td>
+<td align="center">2100</td>
+<td align="center">1300</td>
+</tr>
+<tr class="odd">
+<td align="left">Foins &amp; Fourrages</td>
+<td align="center">200</td>
+<td align="center"></td>
+</tr>
+<tr class="even">
+<td align="left">Paille</td>
+<td align="center"></td>
+<td align="center">250</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="répartition-des-7o5-hectares-du-territoire-communal-en-1885" class="section level4">
+<h4>Répartition des 7O5 hectares du territoire communal en 1885</h4>
+<ul>
+<li>Prairies → 142,49 ha<br />
+</li>
+<li>Cultures → industrielles 208,24 ha<br />
+</li>
+<li>Céréales → 120,35 ha</li>
+<li>Vignes → 42,87 ha<br />
+</li>
+<li>Jachères → 100,63 ha<br />
+</li>
+<li>Prairies naturelles → 46,75 ha<br />
+</li>
+<li>Bois et forêts → 16,12 ha<br />
+</li>
+<li>Jardins des particuliers → 5,48 ha<br />
+</li>
+<li>Landes-pâtis-bruyères → 16,57 ha<br />
+</li>
+<li>Terrains marécageux → 2,1 ha<br />
+</li>
+<li>Terrains bâtis et non bâtis → 3,45 ha</li>
+</ul>
+<hr />
+</div>
+<div id="superficie-des-terres-cultivées-en-ha-de-1900-à-1950" class="section level4">
+<h4>Superficie des terres cultivées en ha de 1900 à 1950:</h4>
+<ul>
+<li>Superficie de la commune 705 ha<br />
+</li>
+<li>Moyenne des terres labourables de 530 à 600 ha</li>
+</ul>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Année</th>
+<th align="center">Blé</th>
+<th align="center">Avoine</th>
+<th align="center">Maïs</th>
+<th align="center">Vigne</th>
+<th align="center">P. d terre</th>
+<th align="center">Fèves</th>
+<th align="center">Haricots</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>1900</strong></td>
+<td align="center">195</td>
+<td align="center">12</td>
+<td align="center">97</td>
+<td align="center">6</td>
+<td align="center">8</td>
+<td align="center">12</td>
+<td align="center">8</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1902</strong></td>
+<td align="center">195</td>
+<td align="center">8</td>
+<td align="center">100</td>
+<td align="center">15</td>
+<td align="center">4</td>
+<td align="center">12</td>
+<td align="center">4</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1903</strong></td>
+<td align="center">200</td>
+<td align="center">10</td>
+<td align="center">100</td>
+<td align="center">15</td>
+<td align="center">4</td>
+<td align="center">10</td>
+<td align="center">5</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1904</strong></td>
+<td align="center">190</td>
+<td align="center">15</td>
+<td align="center">110</td>
+<td align="center">17</td>
+<td align="center">5</td>
+<td align="center">12</td>
+<td align="center">6</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1905</strong></td>
+<td align="center">180</td>
+<td align="center">20</td>
+<td align="center">115</td>
+<td align="center">17</td>
+<td align="center">7</td>
+<td align="center">10</td>
+<td align="center">6</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1906</strong></td>
+<td align="center">170</td>
+<td align="center">25</td>
+<td align="center">120</td>
+<td align="center">19</td>
+<td align="center">6</td>
+<td align="center">10</td>
+<td align="center">8</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1907</strong></td>
+<td align="center">180</td>
+<td align="center">20</td>
+<td align="center">125</td>
+<td align="center">13</td>
+<td align="center">6</td>
+<td align="center">8</td>
+<td align="center">10</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1908</strong></td>
+<td align="center">190</td>
+<td align="center">20</td>
+<td align="center">115</td>
+<td align="center">14</td>
+<td align="center">7</td>
+<td align="center">10</td>
+<td align="center">8</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1909</strong></td>
+<td align="center">185</td>
+<td align="center">25</td>
+<td align="center">120</td>
+<td align="center">14</td>
+<td align="center">8</td>
+<td align="center">12</td>
+<td align="center">6</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1910</strong></td>
+<td align="center">180</td>
+<td align="center">20</td>
+<td align="center">80</td>
+<td align="center">16</td>
+<td align="center">7</td>
+<td align="center">10</td>
+<td align="center">7</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1911</strong></td>
+<td align="center">190</td>
+<td align="center">25</td>
+<td align="center">95</td>
+<td align="center">18</td>
+<td align="center">7</td>
+<td align="center">10</td>
+<td align="center">6</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1912</strong></td>
+<td align="center">185</td>
+<td align="center">20</td>
+<td align="center">90</td>
+<td align="center">18</td>
+<td align="center">6</td>
+<td align="center">10</td>
+<td align="center">6</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1913</strong></td>
+<td align="center">190</td>
+<td align="center">25</td>
+<td align="center">95</td>
+<td align="center">19</td>
+<td align="center">8</td>
+<td align="center"></td>
+<td align="center">6</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1914</strong></td>
+<td align="center">175</td>
+<td align="center">10</td>
+<td align="center">83</td>
+<td align="center">18</td>
+<td align="center">6</td>
+<td align="center">4</td>
+<td align="center">5</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1915</strong></td>
+<td align="center">118</td>
+<td align="center">15</td>
+<td align="center">65</td>
+<td align="center">18</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">3</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1916</strong></td>
+<td align="center">105</td>
+<td align="center">10</td>
+<td align="center">60</td>
+<td align="center">18</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">2</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1917</strong></td>
+<td align="center">95</td>
+<td align="center">12</td>
+<td align="center">40</td>
+<td align="center">18</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">2</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1918</strong></td>
+<td align="center">128</td>
+<td align="center">20</td>
+<td align="center">47</td>
+<td align="center"></td>
+<td align="center">3</td>
+<td align="center">3</td>
+<td align="center">3</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1919</strong></td>
+<td align="center">125</td>
+<td align="center">15</td>
+<td align="center">40</td>
+<td align="center">18</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">3</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1926</strong></td>
+<td align="center">115</td>
+<td align="center">15</td>
+<td align="center">40</td>
+<td align="center">18</td>
+<td align="center">4</td>
+<td align="center">2</td>
+<td align="center">3</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1929</strong></td>
+<td align="center">189</td>
+<td align="center">53</td>
+<td align="center">61</td>
+<td align="center">18</td>
+<td align="center">9</td>
+<td align="center">12</td>
+<td align="center">8</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1930</strong></td>
+<td align="center">120</td>
+<td align="center">53</td>
+<td align="center">40</td>
+<td align="center">18</td>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">3</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1932</strong></td>
+<td align="center">125</td>
+<td align="center">53</td>
+<td align="center">35</td>
+<td align="center">19</td>
+<td align="center">5</td>
+<td align="center">3</td>
+<td align="center">3</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1942</strong></td>
+<td align="center">154</td>
+<td align="center">24</td>
+<td align="center">48</td>
+<td align="center">19,5</td>
+<td align="center">6</td>
+<td align="center">5,6</td>
+<td align="center">6,2</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1950</strong></td>
+<td align="center">150</td>
+<td align="center">30</td>
+<td align="center">55</td>
+<td align="center">23,8</td>
+<td align="center">5,25</td>
+<td align="center">7,65</td>
+<td align="center">8</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="production-céréalière-pendant-la-première-guerre-mondiale-en-hectolitres" class="section level4">
+<h4>Production céréalière pendant la Première Guerre Mondiale en hectolitres</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Céréales</th>
+<th align="center">1915</th>
+<th align="center">1916</th>
+<th align="center">1917</th>
+<th align="center">1918</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>Blé</strong></td>
+<td align="center">1140</td>
+<td align="center">2035</td>
+<td align="center">1916</td>
+<td align="center">2385</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>Avoine</strong></td>
+<td align="center">223</td>
+<td align="center">426</td>
+<td align="center">344</td>
+<td align="center">693</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>Orge</strong></td>
+<td align="center">7</td>
+<td align="center">61</td>
+<td align="center">140</td>
+<td align="center">130</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="rendement-moyen-du-blé-et-de-lavoine-1900-1930" class="section level4">
+<h4>Rendement moyen du blé et de l’avoine 1900-1930</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Années</th>
+<th align="center"></th>
+<th align="center">Blé</th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center"></th>
+<th align="center">Avoine</th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"></td>
+<td align="center"><strong>Quintaux</strong></td>
+<td align="center"></td>
+<td align="center"><strong>Hectare</strong></td>
+<td align="center"></td>
+<td align="center"><strong>Quintaux</strong></td>
+<td align="center"></td>
+<td align="center"><strong>Hectare</strong></td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1900</strong></td>
+<td align="center">195</td>
+<td align="center"></td>
+<td align="center">10,35</td>
+<td align="center"></td>
+<td align="center">12</td>
+<td align="center"></td>
+<td align="center">6,25</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1903</strong></td>
+<td align="center">200</td>
+<td align="center"></td>
+<td align="center">13</td>
+<td align="center"></td>
+<td align="center">10</td>
+<td align="center"></td>
+<td align="center">11</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1914</strong></td>
+<td align="center">175</td>
+<td align="center"></td>
+<td align="center">9</td>
+<td align="center"></td>
+<td align="center">10</td>
+<td align="center"></td>
+<td align="center">10</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1919</strong></td>
+<td align="center">125</td>
+<td align="center"></td>
+<td align="center">10</td>
+<td align="center"></td>
+<td align="center">15</td>
+<td align="center"></td>
+<td align="center">15</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1921</strong></td>
+<td align="center">115</td>
+<td align="center"></td>
+<td align="center">9</td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+<td align="center"></td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1926</strong></td>
+<td align="center">120</td>
+<td align="center"></td>
+<td align="center">14</td>
+<td align="center"></td>
+<td align="center">54</td>
+<td align="center"></td>
+<td align="center">11,5</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1928</strong></td>
+<td align="center">120</td>
+<td align="center"></td>
+<td align="center">11</td>
+<td align="center"></td>
+<td align="center">53</td>
+<td align="center"></td>
+<td align="center">10</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1929</strong></td>
+<td align="center">189</td>
+<td align="center"></td>
+<td align="center">16</td>
+<td align="center"></td>
+<td align="center">53</td>
+<td align="center"></td>
+<td align="center">20</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1930</strong></td>
+<td align="center">120</td>
+<td align="center"></td>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">53</td>
+<td align="center"></td>
+<td align="center">5</td>
+</tr>
+</tbody>
+</table>
+<hr />
+</div>
+<div id="animaux-de-ferme-1900-1951" class="section level4">
+<h4>Animaux de ferme 1900-1951</h4>
+<table>
+<thead>
+<tr class="header">
+<th align="center">Années</th>
+<th align="center">Boeufs</th>
+<th align="center">Vaches</th>
+<th align="center">Chevaux</th>
+<th align="center">Brebis</th>
+<th align="center">Porcins</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center"><strong>1900</strong></td>
+<td align="center">80</td>
+<td align="center">6</td>
+<td align="center">26</td>
+<td align="center">100</td>
+<td align="center">40</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1905</strong></td>
+<td align="center">82</td>
+<td align="center">8</td>
+<td align="center">24</td>
+<td align="center">103</td>
+<td align="center">86</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1914</strong></td>
+<td align="center">70</td>
+<td align="center">10</td>
+<td align="center">11</td>
+<td align="center">40</td>
+<td align="center">55</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1915</strong></td>
+<td align="center">64</td>
+<td align="center">10</td>
+<td align="center">8</td>
+<td align="center">30</td>
+<td align="center">30</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1916</strong></td>
+<td align="center">60</td>
+<td align="center">10</td>
+<td align="center">8</td>
+<td align="center">35</td>
+<td align="center">26</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1917</strong></td>
+<td align="center">60</td>
+<td align="center">10</td>
+<td align="center">8</td>
+<td align="center">30</td>
+<td align="center">26</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1918</strong></td>
+<td align="center">86</td>
+<td align="center">9</td>
+<td align="center">13</td>
+<td align="center"></td>
+<td align="center">11</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1921</strong></td>
+<td align="center">80</td>
+<td align="center">8</td>
+<td align="center">13</td>
+<td align="center"></td>
+<td align="center">22</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1927</strong></td>
+<td align="center">98</td>
+<td align="center">10</td>
+<td align="center">7</td>
+<td align="center"></td>
+<td align="center">57</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1942</strong></td>
+<td align="center">97</td>
+<td align="center">48</td>
+<td align="center">7</td>
+<td align="center"></td>
+<td align="center">115</td>
+</tr>
+<tr class="odd">
+<td align="center"><strong>1949</strong></td>
+<td align="center">94</td>
+<td align="center">66</td>
+<td align="center">75</td>
+<td align="center"></td>
+<td align="center">141</td>
+</tr>
+<tr class="even">
+<td align="center"><strong>1951</strong></td>
+<td align="center">88</td>
+<td align="center">63</td>
+<td align="center">5</td>
+<td align="center"></td>
+<td align="center">72</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

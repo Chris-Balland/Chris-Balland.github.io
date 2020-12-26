@@ -8,10 +8,18 @@ body {
 text-align: justify; font-size:12pt}
 </style>
 
-## Les cathares, qu’es aco?…
-#### Bernard Thourel
+## Les cathares, qu’es aco?…  
 
-**Catharisme**. Qui n’a pas vu sur nos routes de France un panneau annonçant : Vous entrez en pays Cathare. Ceci montre, s’il en est besoin, que le Catharisme fait partie de l’histoire de notre région.  
+
+#### Bernard THOUREL  
+
+<br>
+
+---  
+
+#### Catharisme.  
+
+Qui n’a pas vu sur nos routes de France un panneau annonçant : Vous entrez en pays Cathare. Ceci montre, s’il en est besoin, que le Catharisme fait partie de l’histoire de notre région.  
 
 Il fait son apparition essentiellement dans les comtés de Toulouse, Albi, Carcassonne, Béziers et toute la Septimanie.  
 
@@ -26,14 +34,18 @@ Sur le plan spirituel, l’armée est relayée par l’Inquisition, qui n’hés
 
 L’Inquisition faisant ainsi disparaître le clergé cathare, en a ainsi fait disparaître le culte.  
 
-### Saint Dominique à Deyme   
+<br>  
+
+#### Saint Dominique à Deyme   
 
 Saint Dominique, de son vrai nom Dominique de Guzmàn, est né à Caleruega, province de Burgos. Lors de ses nombreux voyages, il rencontre en Occitanie l’hérésie cathare qu’il essayera en vain de combattre par la parole. En 1215, il s’établit à Toulouse d’où il fondera un ordre prêcheur : les Dominicains. Á l’époque, Simon IV de Montfort extermine par le fer et le feu le maximum de cathares.  
 
 Bien qu’en étant en opposition avec cette hérésie, il ne prendra jamais part aux combats. Il voue une véritable dévotion au Rosaire, cette dévotion ayant été répandue par son disciple Alain de la Roche.
 Notre église a dans son patrimoine un très beau tableau (dernièrement restauré) représentant la remise du Rosaire à Saint Dominique.  
 
-### Le sac de Béziers   
+<br>  
+
+#### Le sac de Béziers   
 
 L’armée des croisés, forte de 20.000 hommes, se présente devant Béziers ville fortifiée. Renaud de Montpeyroux, évêque de Béziers, tente une médiation. Le légat Arnaud Amaury exige que tous les Cathares lui soient livrés. L’évêque dresse une liste de 220 noms d’hérétiques (Sur quels critères, on ne sait). L’évêque fait alors remarquer les difficultés morales et matérielles pour une telle entreprise. L’abbé de Cîteaux exigea alors que tous les catholiques sortent de la ville pour ne pas partager le sort qui est réservé aux hérétiques. Mais la population et les consuls (les capitouls) repoussent cette exigence, restant solidaires de leurs concitoyens.  
 
@@ -45,7 +57,9 @@ La prise-éclair et le massacre font l’effet d’un vrai coup de tonnerre dans
 Le massacre de Béziers est aujourd’hui entré dans la mémoire locale (lou grand masé).
 Enfin, citons cette phrase mémorable qui aurait été prononcée par Arnaud Amaury : ˝Massacrez-les, car le Seigneur connaît les siens˝, phrase déformée et attribuée à Simon de Montfort : ˝Tuez-les tous, Dieu reconnaîtra les siens˝ (?).  
 
-### La chute de Montségur   
+<br>  
+
+#### La chute de Montségur   
 
 Perché sur un piton rocheux, le château de Montségur semblait imprenable (d’où son nom). Il fait partie d’une lignée de châteaux dits ˝cathares˝. On peut signaler les suivants : Puységur, Peyrepertuze, Quéribus etc. Tous ces châteaux étaient situés dans des lieux stratégiques et puissamment défendus.  
 
@@ -55,15 +69,19 @@ Dans ses flancs s’étaient réfugiés 400 croyants cathares. Ils se sentaient 
 Ces assiégeants, aidés par des montagnards habitués à l’escalade et connaissant le pays, réussissent, par surprise, à entrer dans la place et obtinrent sa capitulation complète.
 Le 1er mars 1244, Pierre-Roger de Mirepoix est contraint de négocier avec les cathares. Les termes en furent les suivants :  
 
-	La vie des soldats et des laïcs sera épargnée  
-	Les Parfaits qui renieront leur foi seront épargnés  
-	Une trêve de 15 jours est accordée aux cathares qui voudront se préparer et recevoir leur dernier sacrement.  
+ + La vie des soldats et des laïcs sera épargnée  
+ + Les Parfaits qui renieront leur foi seront épargnés  
+ + Une trêve de 15 jours est accordée aux cathares qui voudront se préparer et recevoir leur dernier sacrement.  
 
 Le 16 mars, la forteresse s’ouvre : le bûcher est prêt ! 220 cathares se jettent volontairement dans les flammes, refusant d’abjurer : hommes, femmes, enfants. Il furent suivis par des soldats qui n’avaient pas voulu les abandonner. On dit que certains chantaient.
 Une stèle a été érigée. Elle porte l’inscription suivante : ˝Als catars, als martirs del pur amor crestian, 16 de març 1244˝.  
 
 En souvenir de ce bûcher, son emplacement porte ce nom: ˝Lou Camp dels Cremats˝.
-Ces événements signent la fin de l’Occitane indépendante.  
- 
-Deyme, 18 novembre 2015
+Ces événements signent la fin de l’Occitane indépendante. 
+
+<br> 
+
+<div style= "float:right;position: relative;margin-left: 20px"> 
+Deyme, 18 novembre 2015  
+</div>
 

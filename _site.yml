@@ -35,6 +35,19 @@ navbar:
             - text: "Mathilde, une amie belge réfugiée"
               href: mathilde-une-amie-belge.html
 
+            - text: "Un sous-officier du 18e RCC"
+              href: Un-sous-officier-du-18e-RCC.html
+
+            - text: "Denrées et substances pendant la 1ère Guerre Mondiale"
+              href: Denrées-et-substances-pendant-la-1ère-Guerre-Mondiale.html
+
+            - text: "Statistiques agricoles"
+              href: Statistiques-agricoles.html
+
+            - text: "Prix des produits fermiers 1929 à 1970"
+              href: Prix-des-produits-fermiers-1929-1970.html
+
+
 
     - text: "Le parlé Deymois"
       href: deymois.html

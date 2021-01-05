@@ -10,7 +10,7 @@ navbar:
     
     - text: "Deyme au fil des rues"
 
-                - menu: 
+      menu:
 
         - text: "Accueil"
           href: accueil.html

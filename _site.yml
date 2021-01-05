@@ -8,12 +8,12 @@ navbar:
   
   left:
     
-    - text:"Deyme au fil des rues"
+    - text: "Deyme au fil des rues"
 
-      menu
+                - menu: 
 
-        - text:"Accueil"
-          href:accueil.html
+        - text: "Accueil"
+          href: accueil.html
           
       
             - text: "Les Deymois racontent la guerre et la terre"

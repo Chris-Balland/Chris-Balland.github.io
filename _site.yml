@@ -5,16 +5,12 @@ output_dir: "."
 navbar:
   
   title: "Christian Balland"
-  
+
   left:
-    
     - text: "Deyme au fil des rues"
-
       menu:
-
-        - text: "Accueil"
-          href: accueil.html
-          
+            - text: "Accueil"
+              href: accueil.html
             - text: "Les Deymois racontent la guerre et la terre"
               href: les-deymois-racontent-la-guerre-et-la-terre.html
 
@@ -47,10 +43,7 @@ navbar:
 
             - text: "Dépiquages – Battages d’autrefois"
               href: Dépiquages-–-Battages-d’autrefois.html
-
-
-
-
+          
     - text: "Le parlé Deymois"
       href: deymois.html
 

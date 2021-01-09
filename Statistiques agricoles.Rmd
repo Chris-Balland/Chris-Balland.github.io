@@ -8,10 +8,18 @@ body {
 text-align: justify; font-size:12pt}
 </style>
 
+<br>  
+
+
 ## Statistiques agricoles  
-#### Christian Balland  
+
+#### Christian BALLAND  
+
+<br> 
 
 ---  
+
+<br> 
 
 #### Production céréalière moyenne fin XVIIIe siècle
 
@@ -24,7 +32,9 @@ text-align: justify; font-size:12pt}
 |Foins & Fourrages | 200 | |  
 |Paille | | 250 |  
 
----
+---  
+
+<br> 
 
 #### Répartition des 7O5 hectares du territoire communal en 1885  
 
@@ -41,7 +51,9 @@ text-align: justify; font-size:12pt}
  + Terrains bâtis et non bâtis → 3,45 ha
  
 
----
+---  
+
+<br> 
 
 #### Superficie des terres cultivées en ha de 1900 à 1950:
 
@@ -77,7 +89,9 @@ text-align: justify; font-size:12pt}
 |**1950** | 150 |	30 | 55 | 23,8 | 5,25 |	7,65 | 8 |  
 
 
----
+---  
+
+<br> 
 
 #### Production céréalière pendant la Première Guerre Mondiale en hectolitres
 
@@ -88,7 +102,9 @@ text-align: justify; font-size:12pt}
 |**Orge** |	7 | 61 | 140 | 130 |  
 
  
----
+---  
+
+<br> 
 
 #### Rendement moyen du blé et de l’avoine 1900-1930
 
@@ -106,7 +122,9 @@ text-align: justify; font-size:12pt}
 |**1930** | 120 | | 5 | | 53 | | 5 |  
 
 
----
+---  
+
+<br> 
 
 #### Animaux de ferme 1900-1951
 

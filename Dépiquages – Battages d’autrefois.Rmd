@@ -8,10 +8,17 @@ body {
 text-align: justify; font-size:12pt}
 </style>
 
-### Statistiques agricoles  
-#### Jean Monfraix  
+<br>  
+
+
+## Statistiques agricoles  
+
+#### Jean MONFRAIX  
+
+<br>
 
 ---  
+
 
 <div style= "float:left;position: relative; width:35%; top: 22px;margin-right: 20px">
 

@@ -8,8 +8,14 @@ body {
 text-align: justify; font-size:12pt}
 </style>
 
-## Mathilde, une amie belge réfugiée      
-#### Christian Balland      
+## Mathilde, une amie belge réfugiée  
+
+#### Christian BALLAND  
+
+<br>
+
+---  
+
 
 Au numéro 7 de la rue du Crucifix vivait une famille dont le dernier membre à occuper les lieux a disparu en 2003. Siège d’une entreprise de transports, d’une entreprise agricole, cabine téléphonique et enfin maison paisible, ce lieu dégageait dans mon enfance un air permanent de magie. Cet état tenait à la personnalité de sa propriétaire, ma tante et marraine, à qui je dois de merveilleux moments pour être né dans ses murs et avoir été considéré comme un fils. La situation m’a fait bénéficier de son sens inné de la décoration, appliquée tant à l’intérieur que dans un jardin qui sentait bon la fantaisie et la liberté. Mais le plus grand des bénéfices est sans doute la narration de certains événements: un incendie traumatisant, une enfance passée au pied d’une caserne de « fiers dragons », sa rencontre avec mon oncle, leurs débuts laborieux et une incroyable somme d’anecdotes liées à la personnalité des êtres qui lui étaient chers.
 
@@ -21,8 +27,8 @@ Pour des temps d’occupation de 15, 31, 46, 61 et 91 jours, les propriétaires 
 
 Le jour de son départ, Mathilde a remis dans sa valise « l’Escaut, les cathédrales et les chemins de pluie » chantés plus tard par un grand « pays ». Mais tant de choses sont restées… En écoutant bien, on perçoit encore aux abords de la maison les entrelacs musicaux des accents réunis dans un nuage diffus, tantôt noir de regrets, jaune comme l’éclat d’un sourire ou teinté du rouge intense des coquelicots de nos prairies…
 
- 
+<br> 
 
- 
-
-Deyme 28 novembre 2015
+<div style= "float:right;position: relative;margin-left: 20px"> 
+Deyme 28 novembre 2015  
+</div>

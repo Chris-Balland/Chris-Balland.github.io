@@ -54,7 +54,10 @@ navbar:
               href: Forge-et-maréchalerie.html  
 
             - text: "L’agriculture en modèles réduits"
-              href: L’agriculture-en-modèles-réduits.html
+              href: L’agriculture-en-modèles-réduits.html  
+
+            - text: "Les Deymois racontent la vie au village"
+              href: Les-Deymois-racontent-la-vie-au-village.html
           
     - text: "Le parlé Deymois"
       href: deymois.html

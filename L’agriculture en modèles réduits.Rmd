@@ -35,5 +35,6 @@ Observateur attentif du monde agricole, il a logé dans sa mémoire les détails
 ```{r, echo = F, out.width="40%"}
 library(knitr)
 myimages<-list.files("C:/Chris-Balland.github.io/images L’agriculture en modèles réduits", pattern = ".jpg", full.names = TRUE)
-include_graphics(myimages)
+include_graphics(myimages)  
 ```
+

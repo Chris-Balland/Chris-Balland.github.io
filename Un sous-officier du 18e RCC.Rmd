@@ -72,15 +72,7 @@ library(knitr)
 myimages<-list.files("C:/Chris-Balland.github.io/images", pattern = ".jpg", full.names = TRUE)
 include_graphics(myimages)
 ```
-![](Gallery Maurice 1.jpg) 
 
-![](Gallery Maurice 2.jpg) 
-![](Gallery Maurice 3.jpg) 
-![](Gallery Maurice 4 _officiers-et-sous-officiers-1939.jpg) 
-![](Gallery Maurice 5-rcc-1939.jpg) 
-![](Gallery Maurice 6 girouette-forbach-19371.jpg) 
-![](Gallery Maurice 7 _20-02-1938.jpg) 
-![](Gallery Maurice 8 forbach-12-mars-1939-3.jpg) 
 
 
 

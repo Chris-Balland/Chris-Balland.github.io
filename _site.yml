@@ -43,6 +43,15 @@ navbar:
 
             - text: "Dépiquages – Battages d’autrefois"
               href: Dépiquages-–-Battages-d’autrefois.html
+
+            - text: "La vie à la ferme en 1950"
+              href: La-vie-à-la-ferme-en-1950.html 
+ 
+            - text: "Un italien en terre lauragaise"
+              href: Un-italien-en-terre-lauragaise.html  
+
+            - text: "Forge et maréchalerie"
+              href: Forge-et-maréchalerie.html
           
     - text: "Le parlé Deymois"
       href: deymois.html

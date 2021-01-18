@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Forge-et-maréchalerie.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Christian Balland</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Deyme au fil des rues
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="accueil.html">Accueil</a>
+    </li>
+    <li>
+      <a href="les-deymois-racontent-la-guerre-et-la-terre.html">Les Deymois racontent la guerre et la terre</a>
+    </li>
+    <li>
+      <a href="les-cathares.html">Les cathares, qu’es aco?…</a>
+    </li>
+    <li>
+      <a href="communiques-de-guerre-1914-1918.html">Communiqués de guerre 1914-1918</a>
+    </li>
+    <li>
+      <a href="laffaire-des-monges.html">L’affaire des Monges</a>
+    </li>
+    <li>
+      <a href="le-monument-aux-morts.html">Le Monument aux Morts</a>
+    </li>
+    <li>
+      <a href="mathilde-une-amie-belge.html">Mathilde, une amie belge réfugiée</a>
+    </li>
+    <li>
+      <a href="Un-sous-officier-du-18e-RCC.html">Un sous-officier du 18e RCC</a>
+    </li>
+    <li>
+      <a href="Denrées-et-substances-pendant-la-1ère-Guerre-Mondiale.html">Denrées et substances pendant la 1ère Guerre Mondiale</a>
+    </li>
+    <li>
+      <a href="Statistiques-agricoles.html">Statistiques agricoles</a>
+    </li>
+    <li>
+      <a href="Prix-des-produits-fermiers-1929-1970.html">Prix des produits fermiers 1929 à 1970</a>
+    </li>
+    <li>
+      <a href="Dépiquages-–-Battages-d’autrefois.html">Dépiquages – Battages d’autrefois</a>
+    </li>
+    <li>
+      <a href="La-vie-à-la-ferme-en-1950.html">La vie à la ferme en 1950</a>
+    </li>
+    <li>
+      <a href="Un-italien-en-terre-lauragaise.html">Un italien en terre lauragaise</a>
+    </li>
+    <li>
+      <a href="Forge-et-maréchalerie.html">Forge et maréchalerie</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="deymois.html">Le parlé Deymois</a>
+</li>
+<li>
+  <a href="poésies.html">Poésies</a>
+</li>
+<li>
+  <a href="jardins.html">Jardins d'Alexandre</a>
+</li>
+<li>
+  <a href="flore.html">Flore poétique méridoniale</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="ballandchristian107@gmail.com">
+    <span class="fas fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/paballand">
+    <span class="fas fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<style>
+body {
+text-align: justify; font-size:12pt}
+</style>
+<p><br></p>
+<div id="forge-et-maréchalerie" class="section level2">
+<h2>Forge et Maréchalerie</h2>
+<div id="jean-monfraix" class="section level4">
+<h4>Jean MONFRAIX</h4>
+<p><br></p>
+<hr />
+<p>« S’il était une activité utile sinon indispensable à l’agriculture, c’était bien celle du forgeron. Cet artisan assurait en effet la fabrication et l’entretien du matériel aratoire ainsi que le ferrage des boeufs de travail, des chevaux et autres équidés domestiques pourvoyant, à l’occasion, à certains soins domestiques de ces animaux.</p>
+<p>A cette époque, le machinisme agricole motorisé était inconnu. Tout le travail se faisait à la main, comme le sarclage du maïs, la fauchaison des foins, voire la moisson avec la faux. Ce n’est qu’après la guerre, vers 1920, que se généralisa l’emploi de la faucheuse puis des moissonneuses faucheuses et des moissonneuses lieuses, ces divers engins étant bien sûr tractés par des boeufs. Enfin, après la deuxième guerre mondiale apparut la merveilleuse moissonneuse batteuse qui, simultanément coupe les céréales sur pied et les égrène, supprimant ainsi le transport des gerbes à la ferme et le battage que l’on pratiquait jadis, avec des batteuses actionnées d’abord par des locomotives à vapeur, et, à partir de 1925, par des tracteurs à essence ou diesel. L’âge d’or du travail du forgeron a vu son déclin dès 1945, avec la substitution de la traction mécanique à la traction animale, et par conséquent la disparition des boeufs et des chevaux. Le travail était infiniment varié. Le feu de la forge alimenté au charbon (braisette de Carmaux) et activé au moyen d’un gros soufflet suspendu au plafond, actionné par un levier. Il dégageait une chaleur intense qui rendait le travail pénible, déjà qu’il l’était du fait du martelage du fer chauffé au rouge et parfois “à blanc”, dans le cas des soudures . Il fallait aiguiser les éléments coupants des charrues et des brabants (charrues sur roues) tels que les ailes, les pointes de soc (carrés) et les coutres. Ce travail s’effectuait suivant un abonnement : chaque agriculteur (propriétaire, maître-valet ou fermier) portait ses “fers” à affiler chaque fois qu’il le jugeait nécessaire, plus souvent en période de sécheresse, l’usure étant alors plus intense ; les outils de la plaine étaient plus affectés que ceux des coteaux du fait de la consistance du sol, avec ses graviers d’alluvions très abrasifs.</p>
+<p>L’abonnement se payait en nature, soit 40 kilos de blé (½ hectolitre) par paire de boeufs et par an. L’aiguisage de houes (foussou) et bêches était couvert par l’abonnement. L’usure de ce matériel de labour était telle, qu’après une certaine durée d’utilisation, il convenait de le remplacer (c’était le cas pour les ailes ) par un apport de métal soudé. On “chaussait” ou rechargeait la pièce, laquelle, après forgeage, présentait ses formes et dimensions d’origine. Ce travail, assez pénible, nécessitait un forgeage énergique et soutenu en raison de l’importance de la masse à traiter. Elle s’opérait à deux, le forgeron muni de tenailles battait lui-même le fer tandis que le “garçon” placé vis-à-vis, frappait à son tour avec un gros marteau (le “marteau de devant”). Ce travail à deux demandait une certaine dextérité pour frapper alternativement tout en évitant le heurt des marteaux, ce qui eût été dangereux pour les exécutants.</p>
+<p>Le forgeron intervenait également pour le remplacement du soc, du versoir, pour redresser éventuellement l’age de la charrue ou de l’araire, pour affûter les pointes des herses et émotteuses , “ferrer” les jougs, reconformer ou souder les “redondes” et “trézégats” (anneaux spéciaux reliant le joug au timon pour l’attelage des boeufs), braser des grilles de faux … etc…</p>
+<p>Un travail très important se présentait lorsqu’il s’agissait de cercler ou “châtrer” les roues des charrettes et tombereaux. Le châtrage consistait à resserrer le cercle autour d’une roue quand elle avait pris du jeu par suite du séchage du bois. La longueur du cercle était réduite, en passant à la “refouleuse” un ou deux de ses points chauffés au rouge. On opérait ensuite comme suit : Les cercles, constitués par des bandes de fer de 12 à 20 mm d’épaisseur, s’obtenaient par le passage au “cylindre” ; les extrémités étaient soudées bout à bout. Le cercle, dont la longueur était légèrement inférieure à celle de la roue (-3 à 4 cm) était chauffé en plein air. Le combustible était constitué par de rafles de maïs que l’on désignait plus communément sous le nom de “carroulhous”, “coucarils” ou “charbons blancs”. Porté au rouge “cerise” et présenté au-dessus de la roue posée horizontalement sur un chevalet spécial (le “chantier”), la dilatation aidant, il passait facilement autour de la roue, entourant bien celle-ci. Le refroidissement rapide par l’eau, amenait la contraction du métal ; ainsi le cercle enserrait énergiquement la jante. L’opération était terminée par le perçage du cercle et de la jante, avec mise en place de boulons dont la tête engagée dans le métal ne laissait aucune aspérité sur la bande de roulement.</p>
+<p>C’était ensuite le ferrage des boeufs et des chevaux. La maréchalerie représentait une grande partie de l’activité du forgeron. Les boeufs étaient ferrés au “travail”, appareil de contention à quatre piliers de bois entre lesquels on maintenait les boeufs -plus rarement les chevaux- pour les ferrer ou les opérer. Le boeuf était immobilisé, sa tête maintenue sous un joug fixe, le corps soulevé par deux sangles entraînées par un palan, le pied à ferrer maintenu par des cordes . A l’aide de tenailles (les “tricoises”), les fers usés étaient enlevés, la ”rivure” des clous ayant préalablement été sectionnée.</p>
+<p>La corne en excédent était coupée au moyen du “rogne-pied”, sur lequel on frappait avec la “mailloche”, petit marteau, aux formes arrondies et à manche flexible. Ainsi “paré”, le pied recevait son fer. Celui-ci était obtenu par forgeage à partir d’une ébauche où l’on pratiquait cinq à six trous pour le passage des clous. Les extrémités des clous sortant de la paroi étaient sectionnées et rivées à la mailloche. Un coup de râpe apportait le fini au travail. Le ferrage de chevaux était autrement délicat. L’ajustage des fers réalisés par forgeage, et présentés à chaud sur le sabot, dégageait une abondante fumée de corne brûlée, à l’odeur caractéristique et au goût âcre. Les fers étaient façonnés par martelage avec le “ferratier”, marteau spécial, autour de la bigorne ronde de l’enclume. Les pieds malades ou mal conformés nécessitaient des ferrures spéciales, dites “pathologiques”, aux formes très diversifiées, celles-ci étant prescrites par le vétérinaire dans certains cas. Ce praticien confiait au maréchal ferrant le soin de procéder au traitement de certaines affections, tels les abcès des pieds des boeufs, et à la diminiution des cornes de bovins accidentés, ou des queues des chevaux. Au printemps, il pouvait pratiquer la saignée annuelle des boeufs.</p>
+<p>On peut se faire une idée du volume de travail auquel devait faire face le forgeron d’une petite commune, où la moyenne était de quarante cinq paires de boeufs auxquelles il fallait ajouter les trente cinq ou quarante des communes voisines que le forgeron desservait. A l’activité régulière du forgeron, il fallait ajouter la clientèle de passage. »</p>
+<p>La forge de Louis Monfraix s’est définitivement arrêtée avec la mort du patron. Le feu et les flammes féligineuses sont éteints à jamais.</p>
+<p>Parmi ceux qui s’en souviennent, certains ont dû sûrement éprouvé de la mélancolie.</p>
+<p>Pour d’aucuns dont je suis, ce fut un immense chagrin mouillé de larmes. Mais il y a le souvenir!…</p>
+<p><br></p>
+<p>Jean MONFRAIX: <em>“Forge et maréchalerie”</em> in <em>“Les Amis du Vieux Deyme: L’agriculture”</em> publié en 1983.</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

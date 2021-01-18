@@ -1,0 +1,46 @@
+---
+---  
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<style>
+body {
+text-align: justify; font-size:12pt}
+</style>
+
+<br>  
+
+
+## Forge et Maréchalerie 
+
+#### Jean MONFRAIX
+
+<br>
+
+---  
+ 
+« S’il était une activité utile sinon indispensable à l’agriculture, c’était bien celle du forgeron. Cet artisan assurait en effet la fabrication et l’entretien du matériel aratoire ainsi que le ferrage des boeufs de travail, des chevaux et autres équidés domestiques pourvoyant, à l’occasion, à certains soins domestiques de ces animaux.
+
+A cette époque, le machinisme agricole motorisé était inconnu. Tout le travail se faisait à la main, comme le sarclage du maïs, la fauchaison des foins, voire la moisson avec la faux. Ce n’est qu’après la guerre, vers 1920, que se généralisa l’emploi de la faucheuse puis des moissonneuses faucheuses et des moissonneuses lieuses, ces divers engins étant bien sûr tractés par des boeufs. Enfin, après la deuxième guerre mondiale apparut la merveilleuse moissonneuse batteuse qui, simultanément coupe les céréales sur pied et les égrène, supprimant ainsi le transport des gerbes à la ferme et le battage que l’on pratiquait jadis, avec des batteuses actionnées d’abord par des locomotives à vapeur, et, à partir de 1925, par des tracteurs à essence ou diesel. L’âge d’or du travail du forgeron a vu son déclin dès 1945, avec la substitution de la traction mécanique à la traction animale, et par conséquent la disparition des boeufs et des chevaux. Le travail était infiniment varié. Le feu de la forge alimenté au charbon (braisette de Carmaux) et activé au moyen d’un gros soufflet suspendu au plafond, actionné par un levier. Il dégageait une chaleur intense qui rendait le travail pénible, déjà qu’il l’était du fait du martelage du fer chauffé au rouge et parfois “à blanc”, dans le cas des soudures . Il fallait aiguiser les éléments coupants des charrues et des brabants (charrues sur roues) tels que les ailes, les pointes de soc (carrés) et les coutres. Ce travail s’effectuait suivant un abonnement : chaque agriculteur (propriétaire, maître-valet ou fermier) portait ses “fers” à affiler chaque fois qu’il le jugeait nécessaire, plus souvent en période de sécheresse, l’usure étant alors plus intense ; les outils de la plaine étaient plus affectés que ceux des coteaux du fait de la consistance du sol, avec ses graviers d’alluvions très abrasifs.
+
+L’abonnement se payait en nature, soit 40 kilos de blé (½ hectolitre) par paire de boeufs et par an. L’aiguisage de houes (foussou) et bêches était couvert par l’abonnement. L’usure de ce matériel de labour était telle, qu’après une certaine durée d’utilisation, il convenait de le remplacer (c’était le cas pour les ailes ) par un apport de métal soudé. On “chaussait” ou rechargeait la pièce, laquelle, après forgeage, présentait ses formes et dimensions d’origine. Ce travail, assez pénible, nécessitait un forgeage énergique et soutenu en raison de l’importance de la masse à traiter. Elle s’opérait à deux, le forgeron muni de tenailles battait lui-même le fer tandis que le “garçon” placé vis-à-vis, frappait à son tour avec un gros marteau (le “marteau de devant”). Ce travail à deux demandait une certaine dextérité pour frapper alternativement tout en évitant le heurt des marteaux, ce qui eût été dangereux pour les exécutants.
+
+Le forgeron intervenait également pour le remplacement du soc, du versoir, pour redresser éventuellement l’age de la charrue ou de l’araire, pour affûter les pointes des herses et émotteuses , “ferrer” les jougs, reconformer ou souder les “redondes” et “trézégats” (anneaux spéciaux reliant le joug au timon pour l’attelage des boeufs), braser des grilles de faux … etc…
+
+Un travail très important se présentait lorsqu’il s’agissait de cercler ou “châtrer” les roues des charrettes et tombereaux. Le châtrage consistait à resserrer le cercle autour d’une roue quand elle avait pris du jeu par suite du séchage du bois. La longueur du cercle était réduite, en passant à la “refouleuse” un ou deux de ses points chauffés au rouge. On opérait ensuite comme suit : Les cercles, constitués par des bandes de fer de 12 à 20 mm d’épaisseur, s’obtenaient par le passage au “cylindre” ; les extrémités étaient soudées bout à bout. Le cercle, dont la longueur était légèrement inférieure à celle de la roue (-3 à 4 cm) était chauffé en plein air. Le combustible était constitué par de rafles de maïs que l’on désignait plus communément sous le nom de “carroulhous”, “coucarils” ou “charbons blancs”. Porté au rouge “cerise” et présenté au-dessus de la roue posée horizontalement sur un chevalet spécial (le “chantier”), la dilatation aidant, il passait facilement autour de la roue, entourant bien celle-ci. Le refroidissement rapide par l’eau, amenait la contraction du métal ; ainsi le cercle enserrait énergiquement la jante. L’opération était terminée par le perçage du cercle et de la jante, avec mise en place de boulons dont la tête engagée dans le métal ne laissait aucune aspérité sur la bande de roulement.
+
+C’était ensuite le ferrage des boeufs et des chevaux. La maréchalerie représentait une grande partie de l’activité du forgeron. Les boeufs étaient ferrés au “travail”, appareil de contention à quatre piliers de bois entre lesquels on maintenait les boeufs -plus rarement les chevaux- pour les ferrer ou les opérer. Le boeuf était immobilisé, sa tête maintenue sous un joug fixe, le corps soulevé par deux sangles entraînées par un palan, le pied à ferrer maintenu par des cordes . A l’aide de tenailles (les “tricoises”), les fers usés étaient enlevés, la ”rivure” des clous ayant préalablement été sectionnée.
+
+La corne en excédent était coupée au moyen du “rogne-pied”, sur lequel on frappait avec la “mailloche”, petit marteau, aux formes arrondies et à manche flexible. Ainsi “paré”, le pied recevait son fer. Celui-ci était obtenu par forgeage à partir d’une ébauche où l’on pratiquait cinq à six trous pour le passage des clous. Les extrémités des clous sortant de la paroi étaient sectionnées et rivées à la mailloche. Un coup de râpe apportait le fini au travail. Le ferrage de chevaux était autrement délicat. L’ajustage des fers réalisés par forgeage, et présentés à chaud sur le sabot, dégageait une abondante fumée de corne brûlée, à l’odeur caractéristique et au goût âcre. Les fers étaient façonnés par martelage avec le “ferratier”, marteau spécial, autour de la bigorne ronde de l’enclume. Les pieds malades ou mal conformés nécessitaient des ferrures spéciales, dites “pathologiques”, aux formes très diversifiées, celles-ci étant prescrites par le vétérinaire dans certains cas. Ce praticien confiait au maréchal ferrant le soin de procéder au traitement de certaines affections, tels les abcès des pieds des boeufs, et à la diminiution des cornes de bovins accidentés, ou des queues des chevaux. Au printemps, il pouvait pratiquer la saignée annuelle des boeufs.
+
+On peut se faire une idée du volume de travail auquel devait faire face le forgeron d’une petite commune, où la moyenne était de  quarante cinq paires de boeufs auxquelles il fallait ajouter les trente cinq ou quarante des communes voisines que le forgeron desservait. A l’activité régulière du forgeron, il fallait ajouter la clientèle de passage. »
+
+La forge de Louis Monfraix s’est définitivement arrêtée avec la mort du patron. Le feu et les flammes féligineuses sont éteints à jamais.
+
+Parmi ceux qui s’en souviennent, certains ont dû sûrement éprouvé de la mélancolie.
+
+Pour d’aucuns dont je suis, ce fut un immense chagrin mouillé de larmes. Mais il y a le souvenir!…
+
+<br>
+
+Jean MONFRAIX: *"Forge et maréchalerie"* in *"Les Amis du Vieux Deyme: L’agriculture"* publié en 1983.

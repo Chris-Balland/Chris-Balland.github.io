@@ -63,7 +63,16 @@ navbar:
               href: Aménagement-d’une-réserve-foncière-de-3-hectares.html 
 
             - text: "Cabine téléphonique"
-              href: Cabine-téléphonique.html
+              href: Cabine-téléphonique.html 
+
+            - text: "COVID-19-Aidons-nous à nous protéger"
+              href: COVID-19-Aidons-nous-à-nous-protéger-.html 
+
+            - text: "Deyme, origine du nom"
+              href: Deyme,-origine-du-nom.html 
+
+            - text: "Ecole, la rentrée 1998"
+              href: Ecole,-la-rentrée-1998.html
           
     - text: "Le parlé Deymois"
       href: deymois.html

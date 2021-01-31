@@ -1,90 +1,68 @@
 ﻿name: "Christian Balland"
-
 output_dir: "."
-
 navbar:
-  
   title: "Christian Balland"
-
   left:
-    - text: "Deyme au fil des rues"
-      menu:
-            - text: "Accueil"
-              href: accueil.html
-            - text: "Les Deymois racontent la guerre et la terre"
-              href: les-deymois-racontent-la-guerre-et-la-terre.html
+  - text: "Deyme au fil des rues"
+    menu:
+    - text: "Accueil"
+      href: accueil.html
+    - text: "Les Deymois racontent la guerre et la terre"
+      menu: 
+      - text: "Les Deymois racontent la guerre et la terre"
+        href: les-deymois-racontent-la-guerre-et-la-terre.html
+      - text: "Les cathares, qu’es aco?…"
+        href: les-cathares.html
+      - text: "Communiqués de guerre 1914-1918"
+        href: communiques-de-guerre-1914-1918.html
+      - text: "L’affaire des Monges"
+        href: laffaire-des-monges.html
+      - text: "Le Monument aux Morts"
+        href: le-monument-aux-morts.html
+      - text: "Mathilde, une amie belge réfugiée"
+        href: mathilde-une-amie-belge.html
+      - text: "Un sous-officier du 18e RCC"
+        href: Un-sous-officier-du-18e-RCC.html
+      - text: "Denrées et substances pendant la 1ère Guerre Mondiale"
+        href: Denrées-et-substances-pendant-la-1ère-Guerre-Mondiale.html
+      - text: "Statistiques agricoles"
+        href: Statistiques-agricoles.html
+      - text: "Prix des produits fermiers 1929 à 1970"
+        href: Prix-des-produits-fermiers-1929-1970.html
+      - text: "Dépiquages – Battages d’autrefois"
+        href: Dépiquages-–-Battages-d’autrefois.html
+      - text: "La vie à la ferme en 1950"
+        href: La-vie-à-la-ferme-en-1950.html 
+      - text: "Un italien en terre lauragaise"
+        href: Un-italien-en-terre-lauragaise.html  
+      - text: "Forge et maréchalerie"
+        href: Forge-et-maréchalerie.html  
+      - text: "L’agriculture en modèles réduits"
+        href: L’agriculture-en-modèles-réduits.html
+    - text: "Les Deymois racontent la vie au village"
+      menu:   
+      - text: "Les Deymois racontent la vie au village" 
+        href: Les-Deymois-racontent-la-vie-au-village.html 
+      - text: "Aménagement d’une réserve foncière de 3 hectares"
+        href: Aménagement-d’une-réserve-foncière-de-3-hectares.html 
+      - text: "Cabine téléphonique"
+        href: Cabine-téléphonique.html 
+      - text: "COVID-19-Aidons-nous à nous protéger"
+        href: COVID-19-Aidons-nous-à-nous-protéger-.html 
+      - text: "Deyme, origine du nom"
+        href: Deyme,-origine-du-nom.html 
+      - text: "Ecole, la rentrée 1998"
+        href: Ecole,-la-rentrée-1998.html   
 
-            - text: "Les cathares, qu’es aco?…"
-              href: les-cathares.html
 
-            - text: "Communiqués de guerre 1914-1918"
-              href: communiques-de-guerre-1914-1918.html
-
-            - text: "L’affaire des Monges"
-              href: laffaire-des-monges.html
-
-            - text: "Le Monument aux Morts"
-              href: le-monument-aux-morts.html
-
-            - text: "Mathilde, une amie belge réfugiée"
-              href: mathilde-une-amie-belge.html
-
-            - text: "Un sous-officier du 18e RCC"
-              href: Un-sous-officier-du-18e-RCC.html
-
-            - text: "Denrées et substances pendant la 1ère Guerre Mondiale"
-              href: Denrées-et-substances-pendant-la-1ère-Guerre-Mondiale.html
-
-            - text: "Statistiques agricoles"
-              href: Statistiques-agricoles.html
-
-            - text: "Prix des produits fermiers 1929 à 1970"
-              href: Prix-des-produits-fermiers-1929-1970.html
-
-            - text: "Dépiquages – Battages d’autrefois"
-              href: Dépiquages-–-Battages-d’autrefois.html
-
-            - text: "La vie à la ferme en 1950"
-              href: La-vie-à-la-ferme-en-1950.html 
- 
-            - text: "Un italien en terre lauragaise"
-              href: Un-italien-en-terre-lauragaise.html  
-
-            - text: "Forge et maréchalerie"
-              href: Forge-et-maréchalerie.html  
-
-            - text: "L’agriculture en modèles réduits"
-              href: L’agriculture-en-modèles-réduits.html  
-
-            - text: "Les Deymois racontent la vie au village"
-              href: Les-Deymois-racontent-la-vie-au-village.html 
-
-            - text: "Aménagement d’une réserve foncière de 3 hectares"
-              href: Aménagement-d’une-réserve-foncière-de-3-hectares.html 
-
-            - text: "Cabine téléphonique"
-              href: Cabine-téléphonique.html 
-
-            - text: "COVID-19-Aidons-nous à nous protéger"
-              href: COVID-19-Aidons-nous-à-nous-protéger-.html 
-
-            - text: "Deyme, origine du nom"
-              href: Deyme,-origine-du-nom.html 
-
-            - text: "Ecole, la rentrée 1998"
-              href: Ecole,-la-rentrée-1998.html
-          
-    - text: "Le parlé Deymois"
-      href: deymois.html
-
-    - text: "Poésies"
-      href: poésies.html
-
-    - text: "Jardins d'Alexandre"
-      href: jardins.html
-
-    - text: "Flore poétique méridoniale"
-      href: flore.html
+  - text: "Le parlé Deymois"
+    href: deymois.html
+  - text: "Poésies"
+    href: poésies.html
+  - text: "Jardins d'Alexandre"
+    href: jardins.html
+  - text: "Flore poétique méridoniale"
+    href: flore.html
 
   right:
 

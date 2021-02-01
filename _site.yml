@@ -52,7 +52,13 @@ navbar:
       - text: "Deyme, origine du nom"
         href: Deyme,-origine-du-nom.html 
       - text: "Ecole, la rentrée 1998"
-        href: Ecole,-la-rentrée-1998.html   
+        href: Ecole,-la-rentrée-1998.html 
+      - text: "Hommage à Alex OUILLAC"
+        href: Hommage-à-Alex-OUILLAC.html 
+      - text: "Hymne à un village"
+        href: Hymne-à-un-village.html  
+      - text: "La boucle de Saint Ignace"
+        href: La-boucle-de-Saint-Ignace.html     
 
 
   - text: "Le parlé Deymois"

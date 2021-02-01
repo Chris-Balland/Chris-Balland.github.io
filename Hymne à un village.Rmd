@@ -1,0 +1,40 @@
+---
+---  
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+<style>
+body {
+text-align: justify; font-size:12pt}
+</style>
+
+<br>  
+
+
+## Hymne à un village   
+
+
+#### Mathias HÉBRARD    
+
+<br>
+
+---  
+
+Partons, allez viens ! Je t’emmène voir une dernière fois cet endroit à taille humaine qui nous donnait de l’élan, cet endroit qui nous rendait meilleur, cet endroit, loin du temps, où tout semble être resté comme avant, comme à l’époque de nos grands-parents, comme un port où une âme trop longtemps mouvementée, viendrait trouver bien être et tranquillité. Il ne s’agit pas ici de conter le passé ô combien saisissant d’un petit village gorgé d’histoire mais de se replonger, comme dans un rêve, dans les souvenirs d’un petit garçon qui avait l’habitude de dévaler les grands espaces de notre amitié sous le soleil bienveillant du midi et qu’invincible, rien ne pouvait atteindre.
+
+Voici un théâtre où il y a de la place pour tout le monde, où les scènes de bonheur sont même jouées par les hirondelles qui ne ratent jamais le rendez-vous printanier. On peut même apercevoir dans quelques garages la résidence secondaire de certaines de ces petites familles qui, le temps venu, avec une présence affectueuse, viennent assister aux représentations de leurs hôtes. C’est ainsi qu’elles sont témoins des réunions de ces bonhommes et bonnes femmes, droits, travailleurs, tous amochés par la vie d’une manière différente mais qui ne manquent pas une occasion de se réunir. Ces rassemblements aux airs de confréries sont d’épiques moments de joie, de camaraderie qui créera entre eux des liens d’argent mystiques rattachés pour toujours à leur mémoire. On entend alors des paroles taquines, des rires sincères et d’amicales tapes dans le dos qui réchauffent les âmes, comme si aucun d’entre eux n’avaient jamais douté de la beauté du monde.
+
+De tels moments festifs rappellent aisément la fameuse fête du village et c’est ainsi que le soir, si l’on tend bien l’oreille, près des rues calmes de la place Alex Ouillac où il fait bon de terminer la journée, entre le murmure des feuilles d’automne dansantes sous la mélodie du vent d’autan, l’on peut y entendre, tel l’écho dans une vallée, les anciens rire et chanter et leur héroïque bonheur nourrit par la simplicité de se retrouver qui a traversé l’espace et le temps.
+
+Voilà un village à la portée des gens, synonyme de partage, qui a fait toute la richesse de son histoire et qui représente encore son essence, où vous y trouverez des musiciens, des artistes, des enseignants, des paysans, discrets ou tapageurs qui vous raconterons bien volontiers que si les tables pouvaient parler, nous aurions besoin d’une vie entière pour écouter tout ce qu’elles auraient à nous raconter. Ici, l’adage : « Qui vient en ami arrive toujours trop tard et part toujours trop tôt » n’a jamais été plus vrai, car l’amitié, l’humour et l’amour est le secret de cette longévité, d’une vie si apaisante et apaisée.
+
+Alors prends ma main, replongeons dans ces secrets, dans cette nostalgie romantique, source de jouvence, où l’on y puise la force d’affronter les épreuves de toute une vie, retrouvons ce qui réparait nos coeurs, qui allégeait nos pensées et enfin admirons, contemplons cette mémoire qui fait partie de notre histoire et, comme la promesse d’un maître à son élève découragé, vient nous rassurer en éclairant le futur à la lumière du passé.
+
+D’aucuns n’adhérerons peut être pas avec cette vision d’un petit village du Lauragais, mais qu’importe, c’est le souvenir que j’en garderai. Et puis, qui peut remettre en question des souvenirs de petit garçon ?
+
+<br> 
+
+<div style= "float:right;position: relative;margin-left: 20px"> 
+Shanghai, 5 janvier 2016 
+</div>
+

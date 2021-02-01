@@ -58,7 +58,9 @@ navbar:
       - text: "Hymne à un village"
         href: Hymne-à-un-village.html  
       - text: "La boucle de Saint Ignace"
-        href: La-boucle-de-Saint-Ignace.html     
+        href: La-boucle-de-Saint-Ignace.html  
+      - text: "Le Billet du Maire"
+        href: Le-Billet-du-Maire.html      
 
 
   - text: "Le parlé Deymois"

@@ -1,0 +1,633 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Le-Canal-du-Midi.utf8</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 64px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h2 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h3 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h4 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h5 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.section h6 {
+  padding-top: 69px;
+  margin-top: -69px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Christian Balland</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    Deyme au fil des rues
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="accueil.html">Accueil</a>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Les Deymois racontent la guerre et la terre</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="les-deymois-racontent-la-guerre-et-la-terre.html">Les Deymois racontent la guerre et la terre</a>
+        </li>
+        <li>
+          <a href="les-cathares.html">Les cathares, qu’es aco?…</a>
+        </li>
+        <li>
+          <a href="communiques-de-guerre-1914-1918.html">Communiqués de guerre 1914-1918</a>
+        </li>
+        <li>
+          <a href="laffaire-des-monges.html">L’affaire des Monges</a>
+        </li>
+        <li>
+          <a href="le-monument-aux-morts.html">Le Monument aux Morts</a>
+        </li>
+        <li>
+          <a href="mathilde-une-amie-belge.html">Mathilde, une amie belge réfugiée</a>
+        </li>
+        <li>
+          <a href="Un-sous-officier-du-18e-RCC.html">Un sous-officier du 18e RCC</a>
+        </li>
+        <li>
+          <a href="Denrées-et-substances-pendant-la-1ère-Guerre-Mondiale.html">Denrées et substances pendant la 1ère Guerre Mondiale</a>
+        </li>
+        <li>
+          <a href="Statistiques-agricoles.html">Statistiques agricoles</a>
+        </li>
+        <li>
+          <a href="Prix-des-produits-fermiers-1929-1970.html">Prix des produits fermiers 1929 à 1970</a>
+        </li>
+        <li>
+          <a href="Dépiquages-–-Battages-d’autrefois.html">Dépiquages – Battages d’autrefois</a>
+        </li>
+        <li>
+          <a href="La-vie-à-la-ferme-en-1950.html">La vie à la ferme en 1950</a>
+        </li>
+        <li>
+          <a href="Un-italien-en-terre-lauragaise.html">Un italien en terre lauragaise</a>
+        </li>
+        <li>
+          <a href="Forge-et-maréchalerie.html">Forge et maréchalerie</a>
+        </li>
+        <li>
+          <a href="L’agriculture-en-modèles-réduits.html">L’agriculture en modèles réduits</a>
+        </li>
+      </ul>
+    </li>
+    <li class="dropdown-submenu">
+      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Les Deymois racontent la vie au village</a>
+      <ul class="dropdown-menu" role="menu">
+        <li>
+          <a href="Les-Deymois-racontent-la-vie-au-village.html">Les Deymois racontent la vie au village</a>
+        </li>
+        <li>
+          <a href="Aménagement-d’une-réserve-foncière-de-3-hectares.html">Aménagement d’une réserve foncière de 3 hectares</a>
+        </li>
+        <li>
+          <a href="Cabine-téléphonique.html">Cabine téléphonique</a>
+        </li>
+        <li>
+          <a href="COVID-19-Aidons-nous-à-nous-protéger-.html">COVID-19-Aidons-nous à nous protéger</a>
+        </li>
+        <li>
+          <a href="Deyme,-origine-du-nom.html">Deyme, origine du nom</a>
+        </li>
+        <li>
+          <a href="Ecole,-la-rentrée-1998.html">Ecole, la rentrée 1998</a>
+        </li>
+        <li>
+          <a href="Hommage-à-Alex-OUILLAC.html">Hommage à Alex OUILLAC</a>
+        </li>
+        <li>
+          <a href="Hymne-à-un-village.html">Hymne à un village</a>
+        </li>
+        <li>
+          <a href="La-boucle-de-Saint-Ignace.html">La boucle de Saint Ignace</a>
+        </li>
+        <li>
+          <a href="Le-Billet-du-Maire.html">Le Billet du Maire</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="deymois.html">Le parlé Deymois</a>
+</li>
+<li>
+  <a href="poésies.html">Poésies</a>
+</li>
+<li>
+  <a href="jardins.html">Jardins d'Alexandre</a>
+</li>
+<li>
+  <a href="flore.html">Flore poétique méridoniale</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="ballandchristian107@gmail.com">
+    <span class="fas fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/paballand">
+    <span class="fas fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<style>
+body {
+text-align: justify; font-size:12pt}
+</style>
+<p><br></p>
+<div id="le-canal-du-midi" class="section level2">
+<h2>Le Canal du Midi</h2>
+<div id="classe-c.e1-c.e2---madame-palin" class="section level4">
+<h4>Classe C.E1-C.E2 - Madame PALIN</h4>
+<p><br></p>
+<hr />
+<div style="width:100%; top: 0px;margin-left: 0px">
+<p><img src="canal%20au%20niveau%20de%20laqueduc.jpg" /></p>
+</div>
+<p><br></p>
+</div>
+<div id="les-canaux" class="section level4">
+<h4><strong>Les canaux</strong></h4>
+<p>Un canal est un cours d’eau artificiel, fait par l’homme pour permettre la navigation.</p>
+<p>On creuse un canal :</p>
+<ul>
+<li>quand les rivières ne sont pas navigables<br />
+</li>
+<li>quand on veut joindre deux rivières ou quand on veut joindre deux mers ou deux océans</li>
+</ul>
+<p>Le Canal de Panama (1914) et le Canal de Suez (1869) sont deux canaux très célèbres.<br />
+Ils sont utiles à la navigation mondiale.<br />
+C’est Ferdinand de Lesseps qui a dirigé leurs travaux.<br />
+Le Canal de Panama sert à relier l’Océan Atlantique à l’Océan Pacifique.<br />
+Le Canal de Suez sert à faire communiquer la mer Méditerranée avec la mer Rouge et sépare le continent africain et le continent asiatique.</p>
+<p><br></p>
+</div>
+<div id="le-canal-du-midi-1" class="section level4">
+<h4><strong>Le Canal du Midi</strong></h4>
+<p>Le Canal du Midi se situe dans le Sud-Ouest de la France.<br />
+Il commence à Toulouse et se termine au port des Onglous (Commune de Marseillan) au bord de l’étang de Thau.<br />
+Sa longueur est de 254 km.</p>
+<p><br></p>
+</div>
+<div id="son-eau" class="section level4">
+<h4><strong>Son eau</strong></h4>
+<p>Riquet a détourné les eaux d’une série de ruisseaux et rivières (Le Sor, le Lampy, l’Alzeau) et a construit un barrage, celui de Saint-Ferréol, pour recevoir et retenir les eaux pendant l’hiver et les restituer pendant l’été.</p>
+<p>L’eau du barrage de Saint-Ferréol part vers le seuil de Naurouze. Cet endroit s’appelle la ligne de partage des eaux, car une partie des eaux est dirigée vers l’Ouest en direction de Toulouse et l’autre vers l’Est en direction de Sète.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Marc et Robin</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="le-canal-du-midi-et-le-canal-latéral-à-la-garonne" class="section level4">
+<h4><strong>Le Canal du Midi et le Canal latéral à la Garonne</strong></h4>
+<p>Un autre canal prolonge le Canal du Midi, c’est le Canal latéral à la Garonne. Il s’appelle comme cela parce qu’il a été construit à côté de la Garonne qui n’est pas tout le temps navigable.</p>
+<p>Le Canal du Midi et le Canal latéral à la Garonne permettre de joindre l’Océan Atlantique et la mer Méditerranée et d’éviter le détour par la détroit de Gibraltar.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Robin et Clément</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="un-vieux-projet" class="section level4">
+<h4><strong>Un vieux projet</strong></h4>
+<p>Depuis longtemps, on voulait construire un canal pour joindre l’Océan Atlantique à la mer Méditerranée et éviter le détour par la détroit de Gibraltar.<br />
+Avant Pierre Paul RIQUET, les Romains, Charlemagne, François 1er et Henri IV avaient déjà voulu réaliser ce projet.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Sylvain et Vincent</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="pierre-paul-riquet" class="section level4">
+<h4><strong>Pierre-Paul RIQUET</strong></h4>
+<p>Pierre-Paul RIQUET naît en 1601 à Béziers.</p>
+<p>Son père François-Guillaume RIQUET est notaire (être notaire rapporte beaucoup d’argent). Il est aussi procureur, affairiste et spéculateur, c’est-à-dire il achète des choses à prix bas et les revend à prix haut. Donc, la famille RIQUET est très riche.</p>
+<p>P.P. RIQUET vit à Revel avec sa femme. Il est percepteur des impôts à la ferme des Gabelles. Il commence à penser au projet du Canal du Midi en 1651.</p>
+<p>P.P. RIQUET parle de son projet à Jean-Baptiste COLBERT qui en parle au roi.</p>
+<p>Pour COLBERT, la réalisation du canal est :</p>
+<ul>
+<li>la création d’un nouveau port sur la Méditerranée<br />
+</li>
+<li>la possibilité pour les navires marchands d’éviter le détroit de Gibraltar et d’utiliser le canal à des fins militaires</li>
+</ul>
+<p>le roi est séduit par l’affaire et par le rayonnement qui pourrait en découler.</p>
+<p>Les travaux du Canal du Midi commencent précisément le 13 avril 1667 sur les hauteurs qui dominent Revel. Mais le chantier avait commencé quelques mois auparavant avec le début de la captation des eaux des rivières et ruisseaux comme le Laudot, l’Alzeau, le Sor, la Bernassonne qui dévalent l’un ou l’autre versant de la Montagne Noire. En tout, il y a 12000 employés qui travaillent sur le chantier. C’est P.P. RIQUET qui finance le canal et ses travaux. RIQUET est un homme moderne car parfois, il surpaie les ouvriers pour les heures supplémentaires, les travaux du dimanche.</p>
+<p>Le Canal peut être ouvert en mai 1681, mais RIQUET ne peut pas le voir terminé car il est déjà mort. Quand RIQUET meurt, sa famille est au bord de la faillite, alors tous les membres travaillent aux écluses du Canal.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Quentin et Eliot</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="les-ouvrages-dart" class="section level4">
+<h4><strong>Les ouvrages d’art</strong></h4>
+<p>Le canal possède 350 ouvrages.</p>
+<p>Les écluses : il y a 63 écluses sur le canal dont dix doubles, quatre triples, une quadruple et une octuple. Les écluses sont des constructions sur un cours d’eau qui permettent aux bateaux de franchir une dénivellation. Les écluses permettent le passage de bateaux d’un maximum de 150 tonnes. Les sas des écluses sont en forme de poissons ou d’olive, ainsi ils résistent mieux à la pression du terrain et la contenance du sas est supérieure.</p>
+<p><br></p>
+</div>
+<div id="les-ponts-canaux" class="section level4">
+<h4><strong>Les ponts-canaux</strong></h4>
+<p>Les ponts-canaux et les aqueduc permettent de faire passer sous le canal, les ruisseaux et les rivières qu’il rencontre. Et ils n’avaient pas l’habitude de construire ce genre ce genre de ponts. On a construit le premier pont-canal en Italie au XVème siècle. Pour le Canal du Midi, P.-P. RIQUET a construit 1 pont canal et VAUBAN les 49 autres.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Meritxell et Pauline</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="les-ponts" class="section level4">
+<h4><strong>Les ponts</strong></h4>
+<p>Il y a plus de 130 ponts sur la longueur du Canal. Les plus anciens se reconnaissent à leur arche en « plein cintre » ou légèrement surbaissée. Ils datent de la construction du canal.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Noémie et Sylvain</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="le-tunnel-de-malpas" class="section level4">
+<h4><strong>Le tunnel de Malpas</strong></h4>
+<p>Pierre-Paul RIQUET a creusé un tunnel qui se trouve près de Béziers. Il a été commencé en 1679. Ce tunnel qui s’appelle le tunnel de Malpas, n’a pas été facile à creuser parce qu’il a été creusé dans un tuf sablonneux et qu’il s’effondrait régulièrement.</p>
+<p>RIQUET avait des ennemis qui pensaient qu’ils n’allaient pas réussir à creuser le tunnel de Malpas et qui informèrent COLBERT. Le projet risquait d’être confié à un autre entrepreneur. Mais RIQUET, mis au courant, passa un marché avec un maçon ensemble ils réussirent à percer le tunnel. Pour que rien ne soit su, ils réalisèrent les travaux en secret. Le tunnel de Malpas fut alors creusé en huit jours.</p>
+<p>Il est long de 173 m et on peut marcher dedans grâce à un trottoir en roche. Pierre-Paul RIQUET a installé des épanchoirs et des réservoirs pour évacuer les eaux qui risquent d’élever le niveau du canal.</p>
+<p><br></p>
+</div>
+<div id="les-hommes-et-le-canal" class="section level4">
+<h4><strong>Les hommes et le canal</strong></h4>
+<p>Autrefois, on trouvait comme bâtiments le long du canal l’hôtellerie, l’écurie, la chapelle, les glacières et les maisons éclusières:</p>
+<p>→ La chapelle servait à marier les mariniers qui pouvaient aussi aller à la messe.</p>
+<p>→ L’hôtellerie permettait aux voyageurs de se loger et de se nourrir.</p>
+<p>→ Les glacières servaient à conserver la glace.</p>
+<p>→ Les maisons éclusières étaient celles des éclusiers.</p>
+<p>Des professions profitaient du canal, comme les meuniers, les négociants qui transportaient les marbres de Caunes-Minervois, les vins, les soies du Languedoc et les céréales.</p>
+<p><br></p>
+</div>
+<div id="les-navires" class="section level4">
+<h4><strong>Les navires</strong></h4>
+<p>Autrefois on voyait naviguer sur le canal :</p>
+<ul>
+<li>des barques de poste qui transportaient des voyageurs (4 jours pour faire Toulouse-Sète)<br />
+</li>
+<li>des gabares qui transportaient des marchandises<br />
+</li>
+<li>des pinardiers qui transportaient le vin</li>
+</ul>
+<p>Aujourd’hui, le canal sert à l’irrigation des cultures et au tourisme.</p>
+<p>Des bateaux de plaisance naviguent sur le canal (beaucoup de personnes anglaises qui empruntent le canal comme raccourci pour arriver à la mer Méditerranée).</p>
+<p>Un bateau navigue en permanence sur le canal : une péniche-ruche, le Phalène qui transporte des abeilles.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Meritxell et Pauline</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="la-faune" class="section level4">
+<h4><strong>La faune</strong></h4>
+<p>les poissons: dans le canal vivent de nombreux poissons, des brochets, des perches, des anguilles, des sandres, des black-bass (perches noires), des poissons-chats. On voit aussi sur le canal barboter des canards, des cygnes.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Benjamin</em></p>
+</div>
+<p><br></p>
+</div>
+<div id="les-ragondins" class="section level4">
+<h4><strong>Les ragondins</strong></h4>
+<p>Importé d’Amérique, les ragondins sont des rongeurs qui creusent leurs terriers dans les berges. Les ragondins sont très nombreux car ils n’ont pas de prédateur dans notre région. Les hommes chassent ces animaux car ils font écrouler les berges du canal.</p>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><em>Simon et Audric</em></p>
+</div>
+<p><br></p>
+<hr />
+<p>L’Echo de Deyme – Informations scolaires pp 34-37. Septembre 2002</p>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

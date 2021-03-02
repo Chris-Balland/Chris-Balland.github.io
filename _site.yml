@@ -60,7 +60,11 @@ navbar:
       - text: "La boucle de Saint Ignace"
         href: La-boucle-de-Saint-Ignace.html  
       - text: "Le Billet du Maire"
-        href: Le-Billet-du-Maire.html      
+        href: Le-Billet-du-Maire.html     
+      - text: "Le Canal du Midi"
+        href: Le-Canal-du-Midi.html       
+      - text: "Le docteur Henri PAGUE"
+        href: Le-docteur-Henri-PAGUE.html                      
 
 
   - text: "Le parlé Deymois"
